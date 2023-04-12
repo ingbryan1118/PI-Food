@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useHistory } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { getAllRecipe,getAllDiet, cleanRecipes, createRecipe } from "../store/actions/index";
 import swal from "sweetalert";
 
@@ -8,7 +8,7 @@ import style from "../css/form.module.css"
 
 export default function Form() {
     const dispatch = useDispatch();
-    const history = useHistory();
+    
     const allRecipes = useSelector((state) => state.allRecipes);
     const allDiets = useSelector((state) => state.allDiets);
     const [errors, setErrors] = useState({});
