@@ -1,0 +1,27 @@
+.boton {
+    padding: 0.5%;
+    background-color:#b4ad95a8;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.boton:hover {
+    background-color:#5bc0de;
+    color: black;
+    transform: scale(1.1);
+}
+
+.select {
+    padding: 0.5%;
+    background-color:#b4ad95a8;
+    border-radius: 5px;
+    color:white;
+}
+
+.select:hover {
+    padding: 0.5%;
+    background-color:#5bc0de;
+    border-radius: 5px;
+    color:black;
+}
